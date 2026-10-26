@@ -1,0 +1,32 @@
+body{
+    background-color: #495579;
+}
+#stack{
+    align-items: center;
+}
+.push, .pop{
+   width: 50px;
+   height: 50px;
+   border-radius: 5px;
+   margin:  5px auto;
+   align-content: center;
+   justify-content: center;
+}
+.pop{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+   
+   
+}
+ .popped{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+ }
+.bg-7B8FA1{
+    background-color: #7B8FA1;
+}   
+.bg-9C254D{
+    background-color: #9C254D;
+}

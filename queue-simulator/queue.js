@@ -71,7 +71,8 @@ function displayQueue() {
 
 // Display messages
 function showMessage(message) {
-    $("#message").text(message).show();
+    $("#message").text(message);
+    $("#message").css("display", "block");
 }
 
 $(document).ready(function() {
@@ -116,7 +117,7 @@ $(document).ready(function() {
     });
 
     // PEEK
-    $("#peekBtn").click(function() {
+    showMessage("Front element is " + queue.peek());
         if (queue.isEmpty()) {
             showMessage("Queue is empty. Nothing to peek.");
             return;

@@ -97,7 +97,10 @@ $(document).ready(function() {
     });
 
     // DEQUEUE
-    $("#dequeueBtn").click(function() {
+    if (queue.isEmpty()) {
+    showMessage("Queue is empty. Nothing to remove.");
+    return;
+    }
         if (queue.isEmpty()) {
             showMessage("Queue is empty. Nothing to remove.");
             return;

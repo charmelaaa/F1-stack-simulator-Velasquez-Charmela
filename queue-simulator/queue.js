@@ -71,7 +71,7 @@ function displayQueue() {
 
 // Display messages
 function showMessage(message) {
-    $("#message").text(message);
+    $("#message").text(message).show();
 }
 
 $(document).ready(function() {

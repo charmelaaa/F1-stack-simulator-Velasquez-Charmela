@@ -1,0 +1,84 @@
+
+body {
+    background-color: #495579;
+}
+
+.queue-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 300px;
+    padding: 10px;
+}
+
+#queue {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 5px;
+    margin: 10px 0;
+}
+
+.queue-item {
+    width: 70px;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0d6efd;
+    color: white;
+    font-weight: bold;
+}
+
+.front-item {
+    background-color: #ffc107;
+    color: black;
+    border: 3px solid white;
+}
+
+#frontLabel {
+    font-weight: bold;
+}
+
+#rearLabel {
+    font-weight: bold;
+}
+
+.popped {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    min-height: 300px;
+    padding: 10px;
+}
+
+.deleted-area {
+    text-align: center;
+}
+
+.deleted-item {
+    width: 70px;
+    height: 50px;
+    border-radius: 5px;
+    margin: 5px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #dc3545;
+    color: white;
+    font-weight: bold;
+}
+
+.bg-7B8FA1 {
+    background-color: #7B8FA1;
+}
+
+.bg-9C254D {
+    background-color: #9C254D;
+}
+
+#message {
+    min-height: 25px;
+}

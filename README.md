@@ -19,3 +19,5 @@ This activity introduces HTML, CSS, Bootstrap, JavaScript, and jQuery through a 
 This project is a simple Stack Simulator using HTML, CSS, JavaScript, and jQuery.
 
 It demonstrates the Push, Pop, Peek, and Clear operations of a Stack data structure using the Last In, First Out (LIFO) principle.
+
+Queue Simulator completed and tested.
